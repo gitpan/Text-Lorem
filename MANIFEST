@@ -1,0 +1,8 @@
+Build.PL
+INSTALL
+MANIFEST
+META.yml
+Makefile.PL
+README
+lib/Text/Lorem.pm
+t/01_words.t
