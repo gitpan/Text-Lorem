@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Text-Lorem
-version: 0.1
+version: 0.2
 license: perl
 distribution_type: module
 requires: {}
@@ -11,5 +11,5 @@ conflicts: {}
 provides:
   Text::Lorem:
     file: lib/Text/Lorem.pm
-    version: 0.1
+    version: 0.2
 generated_by: Module::Build version 0.21

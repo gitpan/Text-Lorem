@@ -4,13 +4,14 @@ use strict;
 use warnings;
 use vars qw($VERSION);
 
-$VERSION = "0.1";
+$VERSION = "0.2";
+
+my $lorem_singleton;
 
 sub new {
   my $class = shift;
-  my $self ={};
-  bless $self,$class;
-  return $self;
+  $lorem_singleton ||= bless {},$class;
+  return $lorem_singleton;
 }
 
 sub generate_wordlist {

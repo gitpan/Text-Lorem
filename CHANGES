@@ -1,0 +1,2 @@
+0.2 2004-01-12
+  + Added support for creating multiple instances of the Text::Lorem object.
